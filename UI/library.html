@@ -8,7 +8,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hello-Books</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/styles.css">
@@ -18,7 +17,7 @@
 </head>
 
 <body>
-
+    <!-- Top navbar header section -->
     <header class="container-fluid">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
@@ -35,7 +34,7 @@
                 <a class="navbar-brand mx-auto" href="#">Hello~Books</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
                                             <span class="navbar-toggler-icon"></span>
-                                        </button>
+                </button>
             </div>
             <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
                 <ul class="navbar-nav ml-auto">
@@ -49,7 +48,110 @@
             </div>
         </nav>
     </header>
+    <!-- body content seciton -->
+    <div class="container">
+        <div class="container jumbotron center">
+            <h1>Meet your next favorite book.</h1><br>
+            <h3> If we encounter a man of rare intellect, we should ask him what books he reads.<br> ~Ralph Waldo Emerson</h3>
+        </div>
+        <div class="container">
+            <h1>Most Popular Hello-Books</h1>
+            <div class="row">
+                <div class="col-sm-3 product">
+                    <a href="#"><img src="../images/bk1.jpg" alt="" height="300" width="250"></a>
+                    <div class="title">
+                        CLEAN CODE
+                    </div>
+                    <div class="description">
+                        ROBERT C. MARTIN
+                    </div>
+                    <button class="btn btn-default btn-block"><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Rent Book</a></button>
+                </div>
 
+                <div class="col-sm-3 product">
+                    <a href="#"><img src="../images/bk2.jpg" alt="" height="300" width="250"></a>
+                    <div class="title">
+                        LEARNING PYTHON
+                    </div>
+                    <div class="description">
+                        MARK LUTZ
+                    </div>
+                    <button class="btn btn-default btn-block"><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Place Bid</a></button>
+                </div>
+
+                <div class="col-sm-3 product">
+                    <a href="#"><img src="../images/bk3.jpg" alt="" height="300" width="250"></a>
+                    <div class="title">
+                        A HIGHER LOYALTY
+                    </div>
+                    <div class="description">
+                        JAMES COMEY
+                    </div>
+                    <button class="btn btn-default btn-block"><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Place Bid</a></button>
+                </div>
+
+                <div class="col-sm-3 product">
+                    <a href="#"><img src="../images/bk4.jpg" alt="" height="300" width="250"></a>
+                    <div class="title">
+                        FIRE AND FURY
+                    </div>
+                    <div class="description">
+                        MICHAEL WOLFF
+                    </div>
+                    <button class="btn btn-default btn-block"><a href="bid.html"><span class="glyphicon glyphicon-shopping-cart"></span>Rent Book</a></button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h1 class="product-title">Biographies & Memoirs</h1>
+            <div class="row">
+                <div class="col-sm-3 product">
+                    <a href="#"><img src="../images/bk8.jpg" alt="" height="300" width="250"></a>
+                    <div class="title">
+                        DREAMS FROM MY FATHER
+                    </div>
+                    <div class="description">
+                        BARRACK OBAMA
+                    </div>
+                    <button class="btn btn-default btn-block"><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Rent Book</a></button>
+                </div>
+
+                <div class="col-sm-3 product">
+                    <a href="#"><img src="../images/bk10.jpg" alt="" height="300" width="250"></a>
+                    <div class="title">
+                        LONG WALK TO FREEDOM
+                    </div>
+                    <div class="description">
+                        NELSON MANDELA
+                    </div>
+                    <button class="btn btn-default btn-block"><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Rent Book</a></button>
+                </div>
+
+                <div class="col-sm-3 product">
+                    <a href="#"><img src="../images/bk11.jpg" alt="" height="300" width="250"></a>
+                    <div class="title">
+                        WE ARE GOING TO NEED MORE WINE GABRIELLE UNION
+                    </div>
+                    <button class="btn btn-default btn-block"><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Rent Book</a></button>
+                </div>
+
+                <div class="col-sm-3 product">
+                    <a href="#"><img src="../images/bk12.jpg" alt="" height="300" width="250"></a>
+                    <div class="title">
+                        MacBeth
+                    </div>
+                    <div class="description">
+                        WILLIAM SHAKESPEAR
+                    </div>
+                    <button class="btn btn-default btn-block"><a href=""><span class="glyphicon glyphicon-shopping-cart"></span>Rent Book</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section -->
     <div id="footer">
         <footer class="container-fluid w-100 bg-dark text-light py-3">
             <div class="container">
@@ -61,6 +163,7 @@
                             <a href="index.html">Home</a>
                             <a href="profile.html">Profile</a>
                             <a href="">Books</a>
+                            <p>Connect with us</p>
                         </p>
                         <ul class="nav">
                             <li class="nav-item"><a href="" class="nav-link pl-0"><i class="fa fa-facebook fa-lg"></i></a></li>
@@ -75,6 +178,10 @@
                             <h5 class="text-md-center">Hello~Books enables users to find</h5>
                             <h5 class="text-md-center">and rent books.</h5>
                             <hr>
+                            <ul>
+                                <i class="fa fa-building-o"> <span>Andela offices, Thika Road.</span></i>
+                                <i class="fa fa-clock-o"> <span>Serving from Monday to Friday.</span></i>
+                            </ul>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -92,7 +199,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="main.js"></script>
 </body>
 
 </html>

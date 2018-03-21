@@ -53,6 +53,239 @@
         </nav>
     </header>
 
+    <div class="container adminTable jumbotron">
+
+        <!--Top Table UI-->
+        <div class="card p-2 mb-5">
+
+            <!--Grid row-->
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-12">
+
+                    <!--Name-->
+                    <select class="mdb-select colorful-select dropdown-primary mx-2">
+                    <option value="" disabled selected>Bulk actions</option>
+                    <option value="1">Delete Book</option>
+                    <option value="2">Add Book</option>
+                    <option value="3">Edit Book</option>
+                </select>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6">
+
+                    <!--Blue select-->
+                    <select class="mdb-select colorful-select dropdown-primary mx-2">
+                    <option value="" disabled selected>Show only</option>
+                    <option value="1">All Books</option>
+                    <option value="2">Never Returned</option>
+                    <option value="2">Out of stock</option>
+                </select>
+                    <!--/Blue select-->
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6">
+
+                    <!--Blue select-->
+                    <select class="mdb-select colorful-select dropdown-primary mx-2">
+                    <option value="" disabled selected>Filter segments</option>
+                    <option value="1">Software Engineering Books</option>
+                    <option value="2">Biographies & Memoirs</option>
+                    <option value="3">Most Popular Hello-Books</option>
+                </select>
+                    <!--/Blue select-->
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6">
+
+                    <form class="form-inline mt-2 ml-2">
+                        <input class="form-control my-0 py-0" type="text" placeholder="Search" style="max-width: 150px;">
+                        <button class="btn btn-sm btn-primary ml-2 px-1"><i class="fa fa-search"></i>  </button>
+                    </form>
+
+                </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+        </div>
+        <!--Top Table UI-->
+
+        <div class="card card-cascade narrower">
+
+            <!--Card image-->
+            <div class="view gradient-card-header blue-gradient narrower py-2 mx-4 mb-3 d-flex justify-content-between align-items-center">
+
+                <div>
+                    <h6>Admin Table</h6>
+                </div>
+
+                <a href="" class="white-text mx-3">Hello~Books Library</a>
+
+                <div>
+                    <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2"><i class="fa fa-pencil mt-0"></i></button>
+                    <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2"><i class="fa fa-remove mt-0"></i></button>
+                    <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2"><i class="fa fa-info-circle mt-0"></i></button>
+                </div>
+
+            </div>
+            <!--/Card image-->
+
+            <div class="px-4">
+
+                <div class="table-wrapper">
+                    <!--Table-->
+                    <table class="table table-hover mb-0 w-auto">
+
+                        <!--Table head-->
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th class="th-lg"><a>Image</a></th>
+                                <th class="th-lg"><a href="">ISBN<i class="fa fa-sort ml-1"></i></a></th>
+                                <th class="th-lg"><a href="">Title<i class="fa fa-sort ml-1"></i></a></th>
+                                <th class="th-lg"><a href="">Author<i class="fa fa-sort ml-1"></i></a></th>
+                                <th class="th-lg"><a href="">Date Published<i class="fa fa-sort ml-1"></i></a></th>
+                                <th class="th-lg"><a href="">Category<i class="fa fa-sort ml-1"></i></a></th>
+                            </tr>
+                        </thead>
+                        <!--Table head-->
+
+                        <!--Table body-->
+                        <tbody class="senta">
+                            <tr>
+                                <th scope="row">
+                                    <input type="checkbox" id="checkbox1">
+                                    <label for="checkbox1" class="label-table"></label>
+                                </th>
+                                <td><img src="../images/bk1.jpg" alt="" border="3" height="50" width="50"></td>
+                                <td>00001</td>
+                                <td>CLEAN CODE</td>
+                                <td>Robert C. Martin</td>
+                                <td>01/02/2040</td>
+                                <td>COMPUTER SCIENCE</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <input type="checkbox" id="checkbox2">
+                                    <label for="checkbox2" class="label-table"></label>
+                                </th>
+                                <td><img src="../images/bk8.jpg" alt="" border="3" height="50" width="50"></td>
+                                <td>00002</td>
+                                <td>Dreams From My Father</td>
+                                <td>BARRACK OBAMA</td>
+                                <td>01/02/2040</td>
+                                <td>GOOD READS</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <input type="checkbox" id="checkbox3">
+                                    <label for="checkbox3" class="label-table"></label>
+                                </th>
+                                <td><img src="../images/bk12.jpg" alt="" border="3" height="50" width="50"></td>
+                                <td>00003</td>
+                                <td>MacBeth</td>
+                                <td>WILLIAM SHAKESPEAR</td>
+                                <td>01/02/2040</td>
+                                <td>GOOD READS</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <input type="checkbox" id="checkbox4">
+                                    <label for="checkbox4" class="label-table"></label>
+                                </th>
+                                <td><img src="../images/bk4.jpg" alt="" border="3" height="50" width="50"></td>
+                                <td>00004</td>
+                                <td>FIRE AND FURY</td>
+                                <td>MICHAEL WOLFF</td>
+                                <td>01/02/2040</td>
+                                <td>BIOGRAPHIES</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <input type="checkbox" id="checkbox5">
+                                    <label for="checkbox5" class="label-table"></label>
+                                </th>
+                                <td><img src="../images/bk1.jpg" alt="" border="3" height="50" width="50"></td>
+                                <td>00005</td>
+                                <td>LONG WALK TO FREEDOM</td>
+                                <td>NELSON MANDELA</td>
+                                <td>01/02/2040</td>
+                                <td>GOOD READS</td>
+                            </tr>
+                        </tbody>
+                        <!--Table body-->
+                    </table>
+                    <!--Table-->
+                </div>
+
+                <hr class="my-0">
+
+                <!--Bottom Table UI-->
+                <div class="d-flex justify-content-between">
+
+                    <!--Name-->
+                    <select class="mdb-select colorful-select dropdown-primary mt-2 hidden-md-down">
+                    <option value="" disabled >Rows number</option>
+                    <option value="1" selected>10 rows</option>
+                    <option value="2">25 rows</option>
+                    <option value="3">50 rows</option>
+                    <option value="4">100 rows</option>
+                </select>
+
+                    <!--Pagination -->
+                    <nav class="my-4">
+                        <ul class="pagination pagination-circle pg-blue mb-0">
+
+                            <!--First-->
+                            <li class="page-item disabled"><a class="page-link">First</a></li>
+
+                            <!--Arrow left-->
+                            <li class="page-item disabled">
+                                <a class="page-link" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                            </li>
+
+                            <!--Numbers-->
+                            <li class="page-item active"><a class="page-link">1</a></li>
+                            <li class="page-item"><a class="page-link">2</a></li>
+
+                            <!--Arrow right-->
+                            <li class="page-item">
+                                <a class="page-link" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </li>
+
+                            <!--First-->
+                            <li class="page-item"><a class="page-link">Last</a></li>
+
+                        </ul>
+                    </nav>
+                    <!--/Pagination -->
+
+                </div>
+                <!--Bottom Table UI-->
+
+            </div>
+        </div>
+
+    </div>
+
     <!-- footer section -->
     <div id="footer">
         <footer class="container-fluid w-100 bg-dark text-light py-3">

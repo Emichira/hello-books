@@ -34,3 +34,16 @@
 .secondRow {
     margin-top: 40px;
 }
+
+
+/* admin section */
+
+.adminTable {
+    margin-top: 50px;
+}
+
+.table-wrapper {
+    display: block;
+    max-height: 300px;
+    overflow-y: auto;
+}

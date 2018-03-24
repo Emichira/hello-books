@@ -37,6 +37,7 @@ body {
     padding-top: 30px;
     background-color: #292c2f;
     color: #bbb;
+    padding: 15px;
 }
 
 #footer a {
@@ -49,4 +50,8 @@ body {
     color: #aaa;
     text-decoration: none;
     border-bottom: 1px dotted #999;
+}
+
+.futa {
+    height: 190px;
 }

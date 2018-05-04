@@ -75,11 +75,3 @@ git push origin <name_of_feature_branch>
 ## Authors
 
 * Emmanuel Michira
-
-## License
-
-This project is licensed under the MIT License - 
-
-## Acknowledgments
-
-* I want to acknowledge my LFA Ms. Sunday for the continous feedback.
